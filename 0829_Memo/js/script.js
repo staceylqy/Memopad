@@ -151,8 +151,10 @@ $(function() {
     //clear the textbox and input
     $("#key").val('');
     $("#memo").val('');
-    $("#lifelist").append(html);
 
+    $("#lifelist").append(html);
+    //reload the page
+    location.reload(true);
    });
 
    //Life-clear 
@@ -169,6 +171,9 @@ $(function() {
     alert("成功的にクリアしました");
     $("#key").val('');
     $("#memo").val('');
+
+    //reload the page
+    location.reload(true);
    });
 
    //Education-edit
@@ -191,6 +196,8 @@ $(function() {
     $("#memo").val('');
     $("#educationlist").append(html);
 
+    //reload the page
+    location.reload(true);
    });
 
    //Education-clear 
@@ -207,6 +214,9 @@ $(function() {
     alert("成功的にクリアしました");
     $("#key").val('');
     $("#memo").val('');
+
+    //reload the page
+    location.reload(true);
    });
 
    //Others-edit
@@ -229,6 +239,8 @@ $(function() {
     $("#memo").val('');
     $("#otherslist").append(html);
 
+    //reload the page
+    location.reload(true);
    });
 
    //Others-clear 
@@ -245,6 +257,9 @@ $(function() {
     alert("成功的にクリアしました");
     $("#key").val('');
     $("#memo").val('');
+
+    //reload the page
+    location.reload(true);
    });
 
 
